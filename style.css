@@ -22,7 +22,22 @@ body{
     background-color: aliceblue;
     font-family: Ubuntu;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
 
+.image{
+    padding: 20px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 50px 20px 30px -15px rgba(199,199,199,1);
+    height: 460px;
+}
 .form{
     display: flex;
     flex-direction: column;
@@ -79,6 +94,6 @@ input:focus{
 
 .button{
     display: flex;
-  
+    justify-content: flex-end;
     padding: 50px;
 }
